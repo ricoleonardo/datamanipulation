@@ -47,3 +47,62 @@ Coding Best Practices (20 points):
 Points will be awarded for PEP 8 compliance, code readability and organization, and the effective use of the chosen data storage system.
 Submission:
 Upload your work on github and paste the repository link below.
+
+
+Task Manager
+
+GUI:
+Input
+Task Name: 
+Activity:
+Category: p for personal / w for work
+status: a for active / c for complete
+
+Edit: (to edit activity and or to update the status )
+list: to list all active task
+choose: choose a number to edit
+choose: a to add activity / s for status
+Output:
+- activity update
+- status update
+
+
+
+View:
+Choose: Personal or Work
+Personal
+list: (list all the task)
+active: (list of active task)
+completed: (list of completed task)
+percentage of completed task: = active / completed
+
+Work
+list: (list all the task)
+active: (list of active task)
+completed: (list of completed task)
+percentage of completed task: = active / completed
+
+
+
+input data:
+(need row number for counting / statistics)
+- task name
+- activity
+- category (personal / work)
+- status (can be mark as completed)
+
+
+
+category
+- work
+- personal
+
+
+display statistics
+- viewing
+	number of task
+	completed task
+	percentage of completed task
+
+
+

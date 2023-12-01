@@ -1,6 +1,13 @@
-
-#,task,activity,category,status 
-1,email,reply email,work,completed
-2,research,how to code,work,active
-3,play,roblox,personal,completed
-4,sleep,early,personal,active
+ID,TASK,CATEGORY,STATUS
+1,read,personal,pending
+2,sing,work,pending
+3,eat,work,pending
+4,task1,personal,pending
+5,taskagain,personal,complete
+6,task,cat,pending
+7,task,work,complete
+8,task8,work,complete
+9,task9,personal,complete
+10,task10,personal,complete
+11,task11,personal,pending
+12,task12,work,pending
