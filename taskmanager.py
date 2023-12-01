@@ -56,6 +56,9 @@ while not quit :
             input("Record update sucesful. Press any key to continue ...")
             continue
 
+#TODO: Add removing line 
+
+
         elif choice.lower() == "e" :
             print("EDIT")
             readfile("taskfile.csv")
@@ -117,6 +120,7 @@ while not quit :
 
             print("***************** STATISTICS ********************")
             
+            print(rowcount, "TOTAL Task" )
             print(f"{statresult:.2f} % Pending")
             print(f"{completed:.2f} % Completed")
             input("Record Statistics. Press any key to continue ...")
