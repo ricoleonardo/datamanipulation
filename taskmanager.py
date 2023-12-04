@@ -76,7 +76,18 @@ while not quit :
             category_status = input("press (c) to change category or press (s) to change status: ") # choose what to edit category or status
             
             if category_status.lower() == "c" :
-                chosen['CATEGORY'] = input("New CATEGORY: ")
+                #chosen['CATEGORY'] = input("New CATEGORY: ")
+
+                while True:
+                        chosen['CATEGORY'] = input(f"Category: (work or personal) ")
+                        if chosen['CATEGORY'] == "work" or chosen['CATEGORY'] == "personal":
+                            break
+                        else:
+                            print("Please choose from (work or personal)")
+                            continue
+
+
+
 
 #TODO: line 78 and 89 can be a function
 
